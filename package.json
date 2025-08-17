@@ -1,0 +1,70 @@
+{
+    "contributes": {
+        "keybindings": [
+            {
+                "args": { "name": "Console Log" },
+                "key": "ctrl+alt+q",
+                "when": "editorTextFocus",
+                "command": "editor.action.insertSnippet"
+            },
+            {
+                "args": { "name": "Async Function" },
+                "key": "ctrl+alt+a",
+                "when": "editorTextFocus",
+                "command": "editor.action.insertSnippet"
+            },
+            {
+                "args": { "name": "React FC" },
+                "key": "ctrl+alt+r",
+                "when": "editorTextFocus",
+                "command": "editor.action.insertSnippet"
+            },
+            {
+                "args": { "name": "Tailwind Button" },
+                "key": "ctrl+alt+t",
+                "when": "editorTextFocus",
+                "command": "editor.action.insertSnippet"
+            },
+            {
+                "args": { "name": "HTML5 Boilerplate" },
+                "key": "ctrl+alt+h",
+                "when": "editorTextFocus",
+                "command": "editor.action.insertSnippet"
+            },
+            {
+                "args": { "name": "Flex Center" },
+                "key": "ctrl+alt+c",
+                "when": "editorTextFocus",
+                "command": "editor.action.insertSnippet"
+            },
+            {
+                "key": "ctrl+alt+f",
+                "when": "editorTextFocus",
+                "command": "editor.action.formatDocument"
+            }
+        ],
+        "snippets": [
+            {
+                "path": "./snippets/all-snippets.json",
+                "language": "*"
+            }
+        ]
+    },
+    "publisher": "yourname",
+    "displayName": "DevBoost Pro Max",
+    "name": "devboost-pro-max",
+    "description": "Ultimate VSCode booster: HTML/CSS/JS + React + Tailwind + Next.js + Zod + Emmet + Prettier + keybindings",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/keopiii/devboost-pro-max.git"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+    ]
+}

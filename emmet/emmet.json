@@ -1,0 +1,9 @@
+{
+    "html":  {
+                 "snippets":  {
+                                  "section":  "\u003csection\u003e$1\u003c/section\u003e",
+                                  "article":  "\u003carticle\u003e$1\u003c/article\u003e",
+                                  "navul":  "\u003cnav\u003e\u003cul\u003e\u003cli\u003e$1\u003c/li\u003e\u003c/ul\u003e\u003c/nav\u003e"
+                              }
+             }
+}

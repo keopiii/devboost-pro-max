@@ -1,0 +1,2 @@
+Set-ExecutionPolicy Bypass -Scope Process
+.\devboost-pro-max.ps1
